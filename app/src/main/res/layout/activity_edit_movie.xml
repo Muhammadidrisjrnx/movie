@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit_movie">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/edit_text_title_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="unknown_title"/>
+    <EditText
+        android:id="@+id/edit_text_overview_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="unknown_overview"/>
+    <EditText
+        android:id="@+id/edit_text_release_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="unknown_release_date"/>
+    <Button
+        android:id="@+id/btn_save_edit_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Edit Movie"/>
+</LinearLayout>
+</ScrollView>
